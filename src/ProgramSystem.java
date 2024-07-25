@@ -13,7 +13,7 @@ public class ProgramSystem {
         int qntTask = sc.nextInt();
 
         List<Task> tasks = new ArrayList<>();
-
+        List<User> users = new ArrayList<>();
 
         for (int i = 0; i < qntTask; i++) {
             System.out.print("email: ");
@@ -22,6 +22,7 @@ public class ProgramSystem {
             String usuario = sc.next();
 
             User user = new User(usuario, email);
+            users.add(user);
 
             System.out.print("nome da tarefa: ");
             String nomeTask = sc.next();
@@ -45,9 +46,9 @@ public class ProgramSystem {
             Task task = new Task(nomeTask, descricao, taskComments);
             tasks.add(task);
         }
-        Project project = new Project(nomeProjeto, tasks);
+        Project project = new Project(nomeProjeto, tasks, users);
         System.out.print(project);
-        
+
         sc.close();
     }
 }

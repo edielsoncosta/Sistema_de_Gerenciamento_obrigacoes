@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6926ddb-1c7a-448f-93a6-c12b941b0fc8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gerenciamento de Projeto.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProgramSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Project.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
+    <list default="true" id="a6926ddb-1c7a-448f-93a6-c12b941b0fc8" name="Changes" comment="version 1.0">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProgramSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProgramSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Project.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +54,20 @@
       <option name="presentableId" value="Default" />
       <updated>1721854542565</updated>
     </task>
+    <task id="LOCAL-00001" summary="version 1.0">
+      <option name="closed" value="true" />
+      <created>1721866266715</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1721866266715</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="version 1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 1.0" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

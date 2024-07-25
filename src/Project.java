@@ -1,14 +1,15 @@
-import java.util.ArrayList;
 import java.util.List;
 
 public class Project {
     private String nomeProjeto;
 
     List<Task> tasks;
+    List<User> users;
 
-    public Project(String nomeProjeto, List<Task> tasks) {
+    public Project(String nomeProjeto, List<Task> tasks, List<User> users) {
         this.nomeProjeto = nomeProjeto;
         this.tasks = tasks;
+        this.users = users;
     }
 
     public String getNomeProjeto() {
@@ -39,6 +40,10 @@ public class Project {
 
         for (Task task : tasks){
             sb.append(task);
+        }
+
+        for (User user : users) {
+            sb.append(user).append("\n");
         }
 
         return sb.toString();
